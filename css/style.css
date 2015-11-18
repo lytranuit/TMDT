@@ -616,6 +616,14 @@ footer {
 .list-recipes .overflow p{
     text-transform: none;
 }
+.list-recipes .overflow h4 b{
+    float: right;
+    text-transform: none;
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0px 10px;
+}
 .red{
     color: red;
     display: inline-block;
