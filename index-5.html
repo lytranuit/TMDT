@@ -16,11 +16,16 @@
         <script type="text/javascript" src="js/superfish.js"></script>
         <script type="text/javascript" src="js/forms.js"></script>
         <script type="text/javascript">
-            $(function() {
-                $('#contact-form').forms({
-                    ownerEmail: '#'
-                })
-            })
+
+            $(document).ready(function() {
+                $("#contact-form .submit").click(function() {
+                    $("#contact-form *").hide();
+                    $("#contact-form .success").show();
+                });
+                $("#contact-form .reset").click(function() {
+                    $('#contact-form').trigger("reset");
+                });
+            });
         </script>
         <!--[if lt IE 8]>
               <div style=' clear: both; text-align:center; position: relative;'>
@@ -46,6 +51,47 @@
                 padding: 21px 0 14px;
                 letter-spacing: 5px;
             }
+            .fl span{
+                display:inline-block;
+                font-size: 18px;
+                color: black;
+            }
+            .w160{
+                width: 260px;
+            }
+            .list-thanhtoan{
+                background: white;
+                padding: 20px;
+                width: 400px !important;
+                border: 1px solid gainsboro;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+            .list-thanhtoan p{
+                border-bottom: 1px solid #DCDCDC;
+            }
+            #contact-form .list-thanhtoan label{
+                display: inline-block;
+                text-align: left;
+                width: 320px;
+                min-height:0px;
+            }
+            #contact-form .list-thanhtoan span{
+                display: inline-block; 
+                text-align: right;
+                color: black;    
+                font-weight: bold;
+                padding-bottom: 0px;
+            }
+            .list-thanhtoan .tong{
+                color:#E21F1F;
+            }
+            .fr{
+                display:inline-block;
+            }
+            .ng-binding{
+                color:red;
+            }
         </style>
     </head>
     <body>
@@ -60,9 +106,8 @@
                         <ul class="sf-menu">
                             <li><a href="index.html">Trang chủ</a></li>
                             <li><a href="index-2.html">Giao hàng</a> </li>
-                            <li ><a href="index-1.html">Đặt bàn</a> </li>
-                            <li><a href="index-3.html">Tin tức</a> </li>
-                            <li class="active"><a href="index-5.html">Đăng nhập</a> </li>
+                            <li ><a href="index-1.html">Quán cafe</a> </li>
+                            <li><a href="index-5.html">Đăng nhập</a> </li>
                         </ul>
                     </nav>
                     <div class="clear"></div>
@@ -71,65 +116,31 @@
         </header>
 
         <!--==============================content=================================-->
-        <section id="content"><div class="ic">More Website Templates @ TemplateMonster.com. December03, 2012!</div>
+        <section id="content">
             <div class="border-horiz"></div>
-            <div class="main">
-                <h3>Contact Information</h3>
-                <div class="box-address">
-                    <h4>Company Name Inc.</h4>
-                    <dl class="address">
-                        <dt>8901 Marmora Road,<br>
-                        Glasgow, D04 89GR.</dt>
-                        <dd> <span>Freephone:</span> +1 800 559 6580</dd>
-                        <dd> <span>Telephone:</span> +1 959 603 6035</dd>
-                        <dd> <span>FAX:</span> +1 504 889 9898</dd>
-                        <dd> E-mail: <a class="mail-1" href="#">mail@demolink.org</a> </dd>
-                    </dl>
-                </div>
-                <div class="map box-img">
-                    <iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+New+York,+NY,+United+States&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=61.282355,146.513672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.950005&amp;spn=0.01628,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed"> </iframe>
-                </div>
-                <div class="clear"></div>
-            </div>
             <div class="box-contact">
-                <h3>Contact Form</h3>
+                <h3>Đăng nhập</h3>
                 <form id="contact-form">
-                    <div class="success"> Contact form submitted! <strong>We will be in touch soon.</strong> </div>
+                    <div class="success">Đăng nhập thành công</div>
                     <fieldset>
-                        <div class="coll-1">
+                        <div class="coll-1" style="width: 100%;">
                             <div>
-                                <div class="form-txt">Your Name:</div>
+                                <div class="form-txt">Username</div>
                                 <label class="name">
                                     <input type="text">
-                                    <span class="error">*This is not a valid name.</span> <span class="empty">*This field is required.</span> </label>
+                                </label>
                                 <div class="clear"></div>
                             </div>
                             <div>
-                                <div class="form-txt">Telephone:</div>
+                                <div class="form-txt">Password</div>
                                 <label class="phone">
-                                    <input type="tel">
-                                    <span class="error">*This is not a valid phone number.</span> <span class="empty">*This field is required.</span> </label>
-                                <div class="clear"></div>
-                            </div>
-                            <div>
-                                <div class="form-txt">Email:</div>
-                                <label class="email">
-                                    <input type="email">
-                                    <span class="error">*This is not a valid email address.</span> <span class="empty">*This field is required.</span> </label>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                        <div class="coll-2">
-                            <div>
-                                <div class="form-txt">Message:</div>
-                                <label class="message">
-                                    <textarea></textarea>
-                                    <span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span> </label>
+                                    <input type="password">
+                                </label>
                                 <div class="clear"></div>
                             </div>
                         </div>
                         <div class="clear"></div>
-                        <div class="btns"> <a class="btn" data-type="reset">Clear</a> <a class="btn" data-type="submit">send</a> </div>
+                        <div class="btns"> <a class="btn reset">Clear</a> <a class="btn submit">send</a> </div>
                     </fieldset>
                 </form>
             </div>

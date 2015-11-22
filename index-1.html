@@ -4,6 +4,8 @@
         <title>Courses</title>
         <meta charset="utf-8">
         <!--css-->
+
+        <link rel="stylesheet" href="css/home.css" type="text/css" media="screen">
         <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
         <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
         <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
@@ -12,7 +14,7 @@
         <link href='http://fonts.googleapis.com/css?family=PT+Serif+Caption:400,400italic' rel='stylesheet' type='text/css'>
 
         <link href='https://fonts.googleapis.com/css?family=Lobster&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
-        <!--js-->
+
         <script type="text/javascript" src="js/jquery-1.7.1.min.js" ></script>
         <script type="text/javascript" src="js/superfish.js"></script>
 
@@ -39,7 +41,18 @@
                 padding: 21px 0 14px;
                 letter-spacing: 5px;
             }
+            .other-bound *{
+                cursor: pointer;
+            }
         </style>
+        <script>
+            $(document).ready(function() {
+                $(".other-bound a").click(function() {
+                    window.location.replace('index-3.html');
+                    return false;
+                });
+            });
+        </script>
     </head>
     <body>
 
@@ -53,8 +66,7 @@
                         <ul class="sf-menu">
                             <li><a href="index.html">Trang chủ</a></li>
                             <li><a href="index-2.html">Giao hàng</a> </li>
-                            <li class="active"><a href="index-1.html">Đặt bàn</a></li>
-                            <li><a href="index-3.html">Tin tức</a> </li>
+                            <li class="active"><a href="index-1.html">Quán cafe</a></li>
                             <li><a href="index-5.html">Đăng nhập</a> </li>
                         </ul>
                     </nav>
@@ -64,72 +76,2052 @@
         </header>
 
         <!--==============================content=================================-->
-        <section id="content"><div class="ic">More Website Templates @ TemplateMonster.com. December03, 2012!</div>
-            <div class="border-horiz"></div>
-            <div class="container_12">
-                <article class="side-bar">
-                    <h3><span>Main</span> Courses</h3>
-                    <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit consetetur sadipscing elitr, sed sadipscing nonumy eirmod tempor.</p>
-                    <ul class="list-1">
-                        <li><a href="#">invidunt ut labore</a></li>
-                        <li><a href="#">et dolore magna</a></li>
-                        <li><a href="#">aliquyam erat</a></li>
-                        <li><a href="#">sed diam voluptua</a></li>
-                        <li><a href="#">At vero eos et accusam</a></li>
-                        <li><a href="#">et justo duo</a></li>
-                    </ul>
-                    <p>dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore.</p>
-                    <ul class="list-1">
-                        <li><a href="#">dolores duo eirmod</a></li>
-                        <li><a href="#">eos erat et nonumy sed</a></li>
-                        <li><a href="#">tempor et et</a></li>
-                        <li><a href="#">invidunt justo</a></li>
-                        <li><a href="#">labore Stet clita</a></li>
-                        <li><a href="#">ea et gubergren kasd</a></li>
-                        <li><a href="#">magna no rebum</a></li>
-                    </ul>
-                </article>
-                <article class="grid_8">
-                    <h3>Short Courses</h3>
-                    <p>Consetetur sadipscing elitr, sed diam nonumy eirmod tepor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duof dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit Lorem ipsum dolor sit amet, consetetur sadipscing.</p>
-                    <a href="#" class="btn">Read more</a>
-                    <div class="padd-1">
-                        <h3>Our Teachers</h3>
-                    </div>
-                    <ul class="list-teachers">
-                        <li>
-                            <figure class="box-img"><img src="images/page2-img1.jpg " alt="" /></figure>
-                            <div class="overflow">
-                                <h4>Danis bowing</h4>
-                                <p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.</p>
-                                <a href="#" class="btn">Read more</a> </div>
-                            <div class="clear"></div>
-                        </li>
-                        <li>
-                            <figure class="box-img"><img src="images/page2-img2.jpg " alt="" /></figure>
-                            <div class="overflow">
-                                <h4>Jane smart</h4>
-                                <p>dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-                                <a href="#" class="btn">Read more</a> </div>
-                            <div class="clear"></div>
-                        </li>
-                        <li>
-                            <figure class="box-img"><img src="images/page2-img3.jpg " alt="" /></figure>
-                            <div class="overflow">
-                                <h4>Sam Dowson</h4>
-                                <p>sed diam nonumy eirmod tempor invidunt ut labore et dolore. magna aliquyam erat, sed diam voluptua.</p>
-                                <a href="#" class="btn">Read more</a> </div>
-                            <div class="clear"></div>
-                        </li>
-                    </ul>
-                </article>
-                <div class="clear"></div>
-            </div>
-        </section>
 
+        <article id="main" class="b200">
+            <section id="ctmain">
+                <section class="big-bound t75">
+                    <div class="title">
+                        <h1><a class="bg-img-cd bgall-title" href="http://www.quancafe.vn/quan-moi-tham-gia-cong-dong">QUÁN MỚI THAM GIA</a></h1>
+                    </div>
+                    <div class="brick t20"></div>
+                    <div id="newest_inn" class="small-bound">
+                        <div class="other-bound">
+                            <a class="course-thumb" href="">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/menuitem/2012/12/12/60.jpg" src="images/gallery-05.jpg" alt="Quán cafe - cafe ngộ II" title="cafe ngộ II" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="cafe ngộ II" href="">cafe ngộ II</a>
+                            </div>
+                            <div class="content">
+                                <a href="">
+                                    <address>76/2l
+                                        đường đường lê văn chí,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareangoii" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;">
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;" >
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;" >
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;" >
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;" >
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhngoii">0</strong>
+                                    <strong class="location" title="Đã đến đây"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvngoii">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkngoii">1</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmngoii">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/menuitem/2012/12/12/37.jpg" src="images/gallery-05.jpg" alt="Quán cafe - SÀI GÒN GIÓ &amp; NƯỚC" title="SÀI GÒN GIÓ &amp; NƯỚC" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="SÀI GÒN GIÓ &amp; NƯỚC" href="">SÀI GÒN GIÓ &amp; NƯỚC</a>
+                            </div>
+                            <div class="content">
+                                <a href="">
+                                    <address>58/21
+                                        đường SỐ 5,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareasaigongionuoc" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;">
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;" >
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;">
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;">
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhsaigongionuoc">0</strong>
+                                    <strong class="location" title="Đã đến đây"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvsaigongionuoc">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lksaigongionuoc">1</strong>
+                                    <strong class="like" title="Thích"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmsaigongionuoc">0</strong>
+                                    <strong class="cm" title="Bình luận" ></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/cofeephonui">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/_branch/2014/5/3/-O6-unnamed.jpg" src="images/-O6-unnamed.jpg" alt="Quán cafe - cafe phố núi" title="cafe phố núi" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="cafe phố núi" href="http://www.quancafe.vn/cofeephonui">cafe phố núi</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/cofeephonui">
+                                    <address>419
+                                        đường kha vạn cân,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+                            <div class="active">
+                                <div id="voteareacofeephonui" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;" >
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;" >
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;">
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;" >
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhcofeephonui">1</strong>
+                                    <strong class="location" title="Đã đến đây"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvcofeephonui">4</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkcofeephonui">1</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmcofeephonui">0</strong>
+                                    <strong class="cm" title="Bình luận" ></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/1973">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/menuitem/2012/12/12/9.jpg" src="images/9.jpg" alt="Quán cafe - 1973CAFE" title="1973CAFE" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="1973CAFE" href="http://www.quancafe.vn/1973">1973CAFE</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/1973">
+                                    <address>
+                                        đường 10K ĐƯỜNG NỘI BỘ LÀNG ĐHQG HCM, phường ,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="votearea1973" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;" >
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;" >
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;" >
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;" >
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;" >
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bh1973">0</strong>
+                                    <strong class="location" title="Đã đến đây" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fv1973">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lk1973">1</strong>
+                                    <strong class="like" title="Thích"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cm1973">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/trungnguyentictak2.1">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/menuitem/2012/12/12/43.jpg" src="images/43.jpg" alt="Quán cafe - Coffee Trung Nguyên Tictak 2" title="Coffee Trung Nguyên Tictak 2" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Coffee Trung Nguyên Tictak 2" href="http://www.quancafe.vn/trungnguyentictak2.1">Coffee Trung Nguyên Tictak 2</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/trungnguyentictak2.1">
+                                    <address>
+                                        đường 166 Đặng Văn Bi,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareatrungnguyentictak2.1" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;" >
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;" >
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;" >
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;">
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;" >
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhtrungnguyentictak2.1">0</strong>
+                                    <strong class="location" title="Đã đến đây"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvtrungnguyentictak2.1">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lktrungnguyentictak2.1">1</strong>
+                                    <strong class="like" title="Thích"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmtrungnguyentictak2.1">0</strong>
+                                    <strong class="cm" title="Bình luận" ></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/apple.5">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/menuitem/2012/12/12/35.jpg" src="images/35.jpg" alt="Quán cafe - Cafe Apple" title="Cafe Apple" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Cafe Apple" href="http://www.quancafe.vn/apple.5">Cafe Apple</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/apple.5">
+                                    <address>19, 23, 24
+                                        đường Thống Nhất,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareaapple.5" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;" >
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;" >
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;" >
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;" >
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhapple.5">0</strong>
+                                    <strong class="location" title="Đã đến đây" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvapple.5">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkapple.5">1</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmapple.5">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/moviepostar">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/menuitem/2012/12/12/2.jpg" src="images/2.jpg" alt="Quán cafe - Coffee &amp; Movie Po Star" title="Coffee &amp; Movie Po Star" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Coffee &amp; Movie Po Star" href="http://www.quancafe.vn/moviepostar">Coffee &amp; Movie Po Star</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/moviepostar">
+                                    <address>218
+                                        đường Đặng Văn Bi,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareamoviepostar" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;">
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;" >
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;" >
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;">
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhmoviepostar">0</strong>
+                                    <strong class="location" title="Đã đến đây"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvmoviepostar">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkmoviepostar">1</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmmoviepostar">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/house.2">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/logoquan/2013/4/11/quancafe-quancafevn-271d9ed8-d764-4c2d-9074-887f76bf54fa.jpg" src="images/quancafe-quancafevn-271d9ed8-d764-4c2d-9074-887f76bf54fa.jpg" alt="Quán cafe - Coffee House" title="Coffee House" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Coffee House" href="http://www.quancafe.vn/house.2">Coffee House</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/house.2">
+                                    <address>52
+                                        đường Hoàng Diệu 2, phường ,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareahouse.2" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;">
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;" >
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;" >
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;">
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhhouse.2">0</strong>
+                                    <strong class="location" title="Đã đến đây" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvhouse.2">2</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkhouse.2">2</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmhouse.2">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/takeawaytoprich">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/logoquan/2013/3/18/quancafe-quancafevn-e9e43c2b-6d61-4992-8172-2d048b98d4c0.JPG" src="images/quancafe-quancafevn-e9e43c2b-6d61-4992-8172-2d048b98d4c0.JPG" alt="Quán cafe - TAKE AWAY COFFEE TOP RICH" title="TAKE AWAY COFFEE TOP RICH" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="TAKE AWAY COFFEE TOP RICH" href="http://www.quancafe.vn/takeawaytoprich">TAKE AWAY COFFEE TOP RICH</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/takeawaytoprich">
+                                    <address>20
+                                        đường Đoàn Kết,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareatakeawaytoprich" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;" >
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;" >
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;">
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;">
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;">
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhtakeawaytoprich">0</strong>
+                                    <strong class="location" title="Đã đến đây" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvtakeawaytoprich">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lktakeawaytoprich">1</strong>
+                                    <strong class="like" title="Thích"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmtakeawaytoprich">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/aimi">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/logoquan/2013/3/4/quancafe-quancafevn-eabc78ca-9de1-47d4-851f-a1a54895e128.jpg" src="images/quancafe-quancafevn-eabc78ca-9de1-47d4-851f-a1a54895e128.jpg" alt="Quán cafe - Cafe Ái Mi" title="Cafe Ái Mi" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Cafe Ái Mi" href="http://www.quancafe.vn/aimi">Cafe Ái Mi</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/aimi">
+                                    <address>254
+                                        đường Tam Bình,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareaaimi" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;">
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;">
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;">
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;" >
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhaimi">0</strong>
+                                    <strong class="location" title="Đã đến đây" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvaimi">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkaimi">1</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmaimi">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/coithantien">
+                                <img class="lazy" src="images/quancafe-quancafevn-f865453f-3705-4fe4-8607-a118904948ef.jpg" alt="Quán cafe - Cõi Thần Tiên" title="Cõi Thần Tiên" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Cõi Thần Tiên" href="http://www.quancafe.vn/coithantien">Cõi Thần Tiên</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/coithantien">
+                                    <address>765
+                                        đường Nguyễn Văn Qúa,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareacoithantien" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;" >
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;" >
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;" >
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;">
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhcoithantien">0</strong>
+                                    <strong class="location" title="Đã đến đây"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvcoithantien">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkcoithantien">1</strong>
+                                    <strong class="like" title="Thích"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmcoithantien">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/caphehuongduong.2">
+                                <img class="lazy"  data-original="http://cdn.quancafe.vn/z_276x145/logoquan/2013/3/4/quancafe-quancafevn-795ae887-40a9-4f4a-9709-3cb997c51178.jpg" src="images/quancafe-quancafevn-795ae887-40a9-4f4a-9709-3cb997c51178.jpg" alt="Quán cafe - Càphê Hướng Dương" title="Càphê Hướng Dương" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Càphê Hướng Dương" href="http://www.quancafe.vn/caphehuongduong.2">Càphê Hướng Dương</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/caphehuongduong.2">
+                                    <address>58/3
+                                        đường Đường số 5, khu phố 1,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareacaphehuongduong.2" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;">
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;" >
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;" >
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;" >
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;" >
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhcaphehuongduong.2">0</strong>
+                                    <strong class="location" title="Đã đến đây" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvcaphehuongduong.2">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkcaphehuongduong.2">1</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmcaphehuongduong.2">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="big-bound t75">
+                    <div class="title">
+                        <h1><a class="bg-img-yt bgall-title" href="http://www.quancafe.vn/quan-duoc-yeu-thich">QUÁN ĐƯỢC YÊU THÍCH</a></h1>
+
+                    </div>
+                    <div class="brick t20"></div>
+                    <div id="community_inn" class="small-bound">
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/olympusluxury">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/branch/2012/11/29/quancafe-50b43e5843952d0210234f56-2e701462-0c3c-483b-b285-1e1fddee9823.jpg" src="images/gallery-05.jpg" alt="Quán Cafe - Olympus Luxury Cafe" title="Olympus Luxury Cafe" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Olympus Luxury Cafe" href="http://www.quancafe.vn/olympusluxury">Olympus Luxury Cafe</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/olympusluxury">
+                                    <address>09
+                                        đường Khổng Tử,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareaolympusluxury" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;" >
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;" >
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;" >
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;">
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;" >
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bholympusluxury">2</strong>
+                                    <strong class="location" title="Đã đến đây" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvolympusluxury">2</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkolympusluxury">14</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmolympusluxury">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/lovegarden">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/branch/2013/3/21/quancafe-50b43e5643952d0210234e79-35621762-d0d8-4c47-9819-9f0a378f717a.jpg" src="images/quancafe-50b43e5643952d0210234e79-35621762-d0d8-4c47-9819-9f0a378f717a.jpg" alt="Quán Cafe - Love Garden Cafe" title="Love Garden Cafe" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Love Garden Cafe" href="http://www.quancafe.vn/lovegarden">Love Garden Cafe</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/lovegarden">
+                                    <address>2
+                                        đường Chu Văn An,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="votearealovegarden" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;" >
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;" >
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;">
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;">
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhlovegarden">2</strong>
+                                    <strong class="location" title="Đã đến đây" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvlovegarden">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lklovegarden">13</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmlovegarden">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/hoangyen">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-tdyi4ohblv6m.jpg" src="images/quancafe-quancafevn-tdyi4ohblv6m.jpg" alt="Quán Cafe - Hoàng Yến Cafe" title="Hoàng Yến Cafe" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Hoàng Yến Cafe" href="http://www.quancafe.vn/hoangyen">Hoàng Yến Cafe</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/hoangyen">
+                                    <address>26
+                                        đường Dân Chủ,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareahoangyen" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;"> 
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;" >
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;" >
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;">
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;">
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhhoangyen">2</strong>
+                                    <strong class="location" title="Đã đến đây"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvhoangyen">2</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkhoangyen">13</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmhoangyen">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/bluekaraoke">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-hfm6mzjg6pdp.JPG" src="images/quancafe-quancafevn-hfm6mzjg6pdp.JPG" alt="Quán Cafe - Blue Karaoke" title="Blue Karaoke" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Blue Karaoke" href="http://www.quancafe.vn/bluekaraoke">Blue Karaoke</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/bluekaraoke">
+                                    <address>74 Đường số 17
+                                        đường ,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareabluekaraoke" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;">
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;" >
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;" >
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;">
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhbluekaraoke">2</strong>
+                                    <strong class="location" title="Đã đến đây" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvbluekaraoke">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkbluekaraoke">13</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmbluekaraoke">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/apple">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-jkx97p9n2js4.jpg" src="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-jkx97p9n2js4.jpg" alt="Quán Cafe - Apple Cafe" title="Apple Cafe" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Apple Cafe" href="http://www.quancafe.vn/apple">Apple Cafe</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/apple">
+                                    <address>19
+                                        đường Thống Nhất,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareaapple" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;">
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;">
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;">
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;" >
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhapple">2</strong>
+                                    <strong class="location" title="Đã đến đây" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvapple">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkapple">12</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmapple">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/ty">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-wy5wlz9ds60q.jpg" src="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-wy5wlz9ds60q.jpg" alt="Quán Cafe - Ty Cafe" title="Ty Cafe" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Ty Cafe" href="http://www.quancafe.vn/ty">Ty Cafe</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/ty">
+                                    <address>27
+                                        đường Công Lý,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+                            <div class="active">
+                                <div id="voteareaty" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;" >
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;" >
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;">
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;" >
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;" >
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhty">2</strong>
+                                    <strong class="location" title="Đã đến đây" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvty">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkty">12</strong>
+                                    <strong class="like" title="Thích"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmty">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/drink">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-gpae5ibo1x4f.jpg" src="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-gpae5ibo1x4f.jpg" alt="Quán Cafe - Drink Cafe" title="Drink Cafe" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Drink Cafe" href="http://www.quancafe.vn/drink">Drink Cafe</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/drink">
+                                    <address>19
+                                        đường Hòa Bình,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareadrink" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;" >
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;" >
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;">
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;">
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhdrink">2</strong>
+                                    <strong class="location" title="Đã đến đây" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvdrink">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkdrink">12</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmdrink">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/topten">
+                                <img class="lazy"  data-original="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-u6p271v9hzmh.JPG" src="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-u6p271v9hzmh.JPG" alt="Quán Cafe - Top Ten Cafe" title="Top Ten Cafe" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Top Ten Cafe" href="http://www.quancafe.vn/topten">Top Ten Cafe</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/topten">
+                                    <address>137 Hoàng Diệu 2
+                                        đường ,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareatopten" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;" >
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;">
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;">
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;">
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhtopten">2</strong>
+                                    <strong class="location" title="Đã đến đây"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvtopten">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lktopten">12</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmtopten">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/banglangda">
+                                <img class="lazy"  data-original="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-yvbvxiyuw50q.JPG" src="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-yvbvxiyuw50q.JPG" alt="Quán Cafe - Bằng Lăng Đá Cafe" title="Bằng Lăng Đá Cafe" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Bằng Lăng Đá Cafe" href="http://www.quancafe.vn/banglangda">Bằng Lăng Đá Cafe</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/banglangda">
+                                    <address>96 Đường 17
+                                        đường ,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareabanglangda" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;">
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;" >
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;">
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;" >
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhbanglangda">2</strong>
+                                    <strong class="location" title="Đã đến đây" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvbanglangda">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkbanglangda">12</strong>
+                                    <strong class="like" title="Thích"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmbanglangda">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/domino">
+                                <img class="lazy"  data-original="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-s94o9r2zi2i9.JPG" src="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-s94o9r2zi2i9.JPG" alt="Quán Cafe - DoMiNo Cafe" title="DoMiNo Cafe" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="DoMiNo Cafe" href="http://www.quancafe.vn/domino">DoMiNo Cafe</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/domino">
+                                    <address>1 Đường 17
+                                        đường ,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareadomino" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;">
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;" >
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;">
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;">
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhdomino">2</strong>
+                                    <strong class="location" title="Đã đến đây" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvdomino">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkdomino">12</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmdomino">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/emi">
+                                <img class="lazy"  data-original="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-n31dozpr1pcm.jpg" src="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-n31dozpr1pcm.jpg" alt="Quán Cafe - Emi Cafe" title="Emi Cafe" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Emi Cafe" href="http://www.quancafe.vn/emi">Emi Cafe</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/emi">
+                                    <address>1
+                                        đường Công Lý,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareaemi" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;">
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;" >
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;" >
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;" >
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;" >
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhemi">2</strong>
+                                    <strong class="location" title="Đã đến đây" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvemi">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkemi">12</strong>
+                                    <strong class="like" title="Thích"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmemi">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/ozone">
+                                <img class="lazy"  data-original="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-nqnp6hjxo29h.JPG" src="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-nqnp6hjxo29h.JPG" alt="Quán Cafe - Ozone Cafe" title="Ozone Cafe" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Ozone Cafe" href="http://www.quancafe.vn/ozone">Ozone Cafe</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/ozone">
+                                    <address>2
+                                        đường 36 - 238 Hoàng Diệu 2,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareaozone" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;">
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;" >
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;" >
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;" >
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;">
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhozone">2</strong>
+                                    <strong class="location" title="Đã đến đây" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvozone">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkozone">12</strong>
+                                    <strong class="like" title="Thích"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmozone">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="big-bound t75">
+                    <div class="title">
+                        <h1><a class="bg-img-rw bgall-title" href="">QUÁN ĐƯỢC NHIỀU REVIEW</a></h1>
+
+                    </div>
+                    <div class="brick t20"></div>
+                    <div id="mostreview_inn" class="small-bound">
+                        <div class="other-bound">
+                            <a class="course-thumb" href="">
+                                <img class="lazy" src="images/gallery-05.jpg" alt="Quán cafe - Olympus Luxury Cafe" title="Olympus Luxury Cafe" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Olympus Luxury Cafe" href="">Olympus Luxury Cafe</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/olympusluxury">
+                                    <address>09
+                                        đường Khổng Tử,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareaolympusluxury" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;" >
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;">
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;">
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;">
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bholympusluxury">2</strong>
+                                    <strong class="location" title="Đã đến đây"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvolympusluxury">2</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkolympusluxury">14</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmolympusluxury">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/apple.5">
+                                <img class="lazy"  data-original="http://cdn.quancafe.vn/z_276x145/menuitem/2012/12/12/35.jpg" src="images/35.jpg" alt="Quán cafe - Cafe Apple" title="Cafe Apple" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Cafe Apple" href="http://www.quancafe.vn/apple.5">Cafe Apple</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/apple.5">
+                                    <address>19, 23, 24
+                                        đường Thống Nhất,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+                            <div class="active">
+                                <div id="voteareaapple.5" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;">
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;" >
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;">
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;" >
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhapple.5">0</strong>
+                                    <strong class="location" title="Đã đến đây"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvapple.5">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkapple.5">1</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmapple.5">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/cofeephonui">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/_branch/2014/5/3/-O6-unnamed.jpg" src="images/-O6-unnamed.jpg" alt="Quán cafe - cafe phố núi" title="cafe phố núi" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="cafe phố núi" href="http://www.quancafe.vn/cofeephonui">cafe phố núi</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/cofeephonui">
+                                    <address>419
+                                        đường kha vạn cân,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareacofeephonui" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;">
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;">
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;" >
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;">
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhcofeephonui">1</strong>
+                                    <strong class="location" title="Đã đến đây" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvcofeephonui">4</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkcofeephonui">1</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmcofeephonui">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/ngo2.levanchi">
+                                <img class="lazy"  data-original="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-or67pneduki0.JPG" src="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-or67pneduki0.JPG" alt="Quán cafe - Ngộ 2 Cafe - Lê Văn Chí" title="Ngộ 2 Cafe - Lê Văn Chí" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Ngộ 2 Cafe - Lê Văn Chí" href="http://www.quancafe.vn/ngo2.levanchi">Ngộ 2 Cafe - Lê Văn Chí</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/ngo2.levanchi">
+                                    <address>762
+                                        đường A Lê Văn Chí,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareango2.levanchi" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;" >
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;" >
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;" >
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;">
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhngo2.levanchi">3</strong>
+                                    <strong class="location" title="Đã đến đây" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvngo2.levanchi">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkngo2.levanchi">12</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmngo2.levanchi">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/caphehuongduong.2">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/logoquan/2013/3/4/quancafe-quancafevn-795ae887-40a9-4f4a-9709-3cb997c51178.jpg" src="images/quancafe-quancafevn-795ae887-40a9-4f4a-9709-3cb997c51178.jpg" alt="Quán cafe - Càphê Hướng Dương" title="Càphê Hướng Dương" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Càphê Hướng Dương" href="http://www.quancafe.vn/caphehuongduong.2">Càphê Hướng Dương</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/caphehuongduong.2">
+                                    <address>58/3
+                                        đường Đường số 5, khu phố 1,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+                            <div class="active">
+                                <div id="voteareacaphehuongduong.2" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;">
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;">
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;" >
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;" >
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhcaphehuongduong.2">0</strong>
+                                    <strong class="location" title="Đã đến đây"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvcaphehuongduong.2">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkcaphehuongduong.2">1</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmcaphehuongduong.2">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/rung.2">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/logoquan/2013/3/2/quancafe-quancafevn-9f806f7f-f946-49a9-8674-4ca29c6da1b4.JPG" src="http://cdn.quancafe.vn/z_276x145/logoquan/2013/3/2/quancafe-quancafevn-9f806f7f-f946-49a9-8674-4ca29c6da1b4.JPG" alt="Quán cafe - Café Rừng" title="Café Rừng" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Café Rừng" href="http://www.quancafe.vn/rung.2">Café Rừng</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/rung.2">
+                                    <address>
+                                        đường Bác Ái,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="votearearung.2" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;" >
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;">
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;">
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;">
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhrung.2">0</strong>
+                                    <strong class="location" title="Đã đến đây" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvrung.2">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkrung.2">1</strong>
+                                    <strong class="like" title="Thích"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmrung.2">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/aimi">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/logoquan/2013/3/4/quancafe-quancafevn-eabc78ca-9de1-47d4-851f-a1a54895e128.jpg" src="images/quancafe-quancafevn-eabc78ca-9de1-47d4-851f-a1a54895e128.jpg" alt="Quán cafe - Cafe Ái Mi" title="Cafe Ái Mi" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Cafe Ái Mi" href="http://www.quancafe.vn/aimi">Cafe Ái Mi</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/aimi">
+                                    <address>254
+                                        đường Tam Bình,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareaaimi" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;">
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;">
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;">
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;">
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhaimi">0</strong>
+                                    <strong class="location" title="Đã đến đây" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvaimi">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkaimi">1</strong>
+                                    <strong class="like" title="Thích"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmaimi">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/ozone">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-nqnp6hjxo29h.JPG" src="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-nqnp6hjxo29h.JPG" alt="Quán cafe - Ozone Cafe" title="Ozone Cafe" style="display: block;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Ozone Cafe" href="http://www.quancafe.vn/ozone">Ozone Cafe</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/ozone">
+                                    <address>2
+                                        đường 36 - 238 Hoàng Diệu 2,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareaozone" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;">
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;">
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;">
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;">
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhozone">2</strong>
+                                    <strong class="location" title="Đã đến đây"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvozone">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkozone">12</strong>
+                                    <strong class="like" title="Thích"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmozone">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/apple">
+                                <img class="lazy"  data-original="http://cdn.quancafe.vn/z_276x145/logoquan/2012/11/27/quancafe-quancafevn-jkx97p9n2js4.jpg" src="images/gallery-05.jpg" alt="Quán cafe - Apple Cafe" title="Apple Cafe" style="display: inline;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Apple Cafe" href="http://www.quancafe.vn/apple">Apple Cafe</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/apple">
+                                    <address>19
+                                        đường Thống Nhất,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareaapple" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;">
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;" >
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;">
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;">
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhapple">2</strong>
+                                    <strong class="location" title="Đã đến đây"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvapple">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkapple">12</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmapple">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/caphebohoanhlinh">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/logoquan/2013/3/2/quancafe-quancafevn-acfd742c-9a61-432e-9c42-01887bcca9a5.JPG" src="images/gallery-05.jpg" alt="Quán cafe - Cà phê bờ hồ Ánh Linh" title="Cà phê bờ hồ Ánh Linh" style="display: inline;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Cà phê bờ hồ Ánh Linh" href="http://www.quancafe.vn/caphebohoanhlinh">Cà phê bờ hồ Ánh Linh</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/caphebohoanhlinh">
+                                    <address>72
+                                        đường Đường 16,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareacaphebohoanhlinh" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;">
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;">
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;" >
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;">
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhcaphebohoanhlinh">0</strong>
+                                    <strong class="location" title="Đã đến đây"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvcaphebohoanhlinh">1</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkcaphebohoanhlinh">1</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmcaphebohoanhlinh">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/house.2">
+                                <img class="lazy" data-original="http://cdn.quancafe.vn/z_276x145/logoquan/2013/4/11/quancafe-quancafevn-271d9ed8-d764-4c2d-9074-887f76bf54fa.jpg" src="images/gallery-05.jpg" alt="Quán cafe - Coffee House" title="Coffee House" style="display: inline;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Coffee House" href="http://www.quancafe.vn/house.2">Coffee House</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/house.2">
+                                    <address>52
+                                        đường Hoàng Diệu 2, phường ,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareahouse.2" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;" >
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;">
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;">
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;">
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;">
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhhouse.2">0</strong>
+                                    <strong class="location" title="Đã đến đây" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvhouse.2">2</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkhouse.2">2</strong>
+                                    <strong class="like" title="Thích" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmhouse.2">0</strong>
+                                    <strong class="cm" title="Bình luận" ></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="other-bound">
+                            <a class="course-thumb" href="http://www.quancafe.vn/hoangyen">
+                                <img class="lazy" src="images/gallery-05.jpg" alt="Quán cafe - Hoàng Yến Cafe" title="Hoàng Yến Cafe" style="display: inline;">
+                                <span>
+                                    <span>Xem chi tiết</span>
+                                </span>
+                            </a>
+                            <div class="name">
+                                <a class="eclipse" title="Hoàng Yến Cafe" href="http://www.quancafe.vn/hoangyen">Hoàng Yến Cafe</a>
+                            </div>
+                            <div class="content">
+                                <a href="http://www.quancafe.vn/hoangyen">
+                                    <address>26
+                                        đường Dân Chủ,
+                                        Thủ Đức, Hồ Chí Minh, Việt Nam</address>
+                                </a>
+                            </div>
+
+                            <div class="active">
+                                <div id="voteareahoangyen" class="hidden branchvote" style="display: none;">
+                                    <a title="Bầu chọn 1 sao" href="javascript:;" >
+                                        <div id="votenumber1" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 2 sao" href="javascript:;" >
+                                        <div id="votenumber2" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 3 sao" href="javascript:;">
+                                        <div id="votenumber3" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 4 sao" href="javascript:;" >
+                                        <div id="votenumber4" class="vote">
+                                        </div>
+                                    </a><a title="Bầu chọn 5 sao" href="javascript:;" >
+                                        <div id="votenumber5" class="vote">
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="item-active">
+                                    <strong class="num-active" id="bhhoangyen">2</strong>
+                                    <strong class="location" title="Đã đến đây" ></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="fvhoangyen">2</strong>
+                                    <strong class="star" id="addfavourite" title="Bình chọn"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="lkhoangyen">13</strong>
+                                    <strong class="like" title="Thích"></strong>
+                                </p>
+                                <p class="item-active">
+                                    <strong class="num-active" id="cmhoangyen">0</strong>
+                                    <strong class="cm" title="Bình luận"></strong>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </article>
         <!--==============================footer=================================-->
         <footer>
-            <div class="main">
+            <div class="main1">
                 <ul class="soc-list">
                     <li><a href="#"><img alt="" src="images/icon-1.png"></a></li>
                     <li><a href="#"><img alt="" src="images/icon-2.png"></a></li>

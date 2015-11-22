@@ -1,0 +1,1467 @@
+
+#main-top {
+	float: left;
+	height:470px;
+}
+#logo {
+	width: 220px;
+	height: 470px;
+	float: left;
+	position: relative;
+}
+#logo > img {
+	position: absolute;
+	top: 27px;
+	left: 0px;
+}
+
+#logo > nav {
+	background-color: #FFFFFF;
+    border: 1px solid #999999;
+    border-radius: 5px 5px 5px 5px;
+    height: 350px;
+    position: absolute;
+    top: 120px;
+    width: 220px;
+}
+#logo  nav > img {
+	background: url("http://cdn.quancafe.vn/Content/newimages/logo.jpg") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 108px;
+    margin: 1px;
+    width: 218px;
+}
+#logo nav > ul > li {
+	float: left;
+	width: 100%;
+	padding: 5px 0;
+	border-top: 1px solid #c9c9c9;
+	/* Safari 4-5, Chrome 1-9 */ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e7e7e7), to(#ffffff));
+    /* Safari 5.1, Chrome 10+ */ background: -webkit-linear-gradient(top, #e7e7e7, #ffffff);
+    /* Firefox 3.6+ */ background: -moz-linear-gradient(top, #e7e7e7, #ffffff);
+	/* IE 10 */ background: -ms-linear-gradient(top, #e7e7e7, #ffffff);
+    /* Opera 11.10+ */ background: -o-linear-gradient(top, #e7e7e7, #ffffff);
+}
+#logo nav > ul > li a {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 500;
+	color: #595657;
+}
+#logo nav > ul > li a:hover {
+	color: #b34d2e;
+}
+#logo nav > ul > li > a > img {
+	float: left;
+	padding: 0px 10px !important;
+}
+#r-bner {
+	height: 470px;
+    background: url("http://cdn.quancafe.vn/Content/newimages/imgbanner.jpg") no-repeat;
+	float:left;
+    padding-left: 20px;
+}
+#bner-top {
+	height:135px;
+    width: 100%;
+}
+#bner-top #num{
+	float: left;
+	width: 190px;
+}
+#bner-top #num > #auto-num {
+	width: 130px;
+	height: 40px;
+	margin: 20px 0 0 10px;
+	float: left;
+}
+#bner-top #num > #jbtn{
+	width: 100%;
+	height: 50px;
+	font-size: 16px;
+	color: #111;
+	margin-left: 10px;
+	float: left;
+}
+#bner-top #num > #jbtn > p {
+    padding-top: 5px;
+	margin: 0;
+    font-weight: bold;
+    text-shadow: 0 1px 1px #fff;
+}
+#join {
+	float: left;
+}
+#ques {
+	float: right;
+	margin-top: 10px;
+	padding: 0 10px;
+	font-size: 32px;
+	color: #fff;
+	text-shadow: -1px 1px 0px #2d2d2d;
+}
+#join > p {
+	margin: 0;
+}
+#join > p > a .btn {
+	-moz-box-shadow: inset 0px 1px 0px 0px #009704;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #009704;
+	box-shadow: inset 0px 1px 0px 0px #009704;
+	    background:#135b15 url("http://cdn.quancafe.vn/content/images/noise.png");
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-moz-linear-gradient(#277729, #135b15);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-webkit-linear-gradient(#277729, #135b15);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-o-linear-gradient(#277729, #135b15);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-ms-linear-gradient(#277729, #135b15);
+	background: url("http://cdn.quancafe.vn/content/images/noise.png"), linear-gradient(#277729, #135b15);
+/*	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background: -moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#277729', endColorstr='#135b15');
+	background-color: #135b15;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #004602;
+	display: inline-block;
+	color: #ccc;
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px;
+	margin: 5px 10px;
+	text-decoration: none;
+	text-shadow: 1px 1px 0px #000;
+	cursor: pointer;
+	float: right;
+}
+#join > p > a .btn:hover {
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-moz-linear-gradient(#277729, #074908);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-webkit-linear-gradient(#277729, #074908);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-o-linear-gradient(#277729, #074908);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-ms-linear-gradient(#277729, #074908);
+	background: url("http://cdn.quancafe.vn/content/images/noise.png"), linear-gradient(#277729, #074908);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#277729', endColorstr='#074908');
+}
+.bner-slider {
+	width: 100%;
+	height: 315px;
+	border-radius: 5px;
+	border: 1px solid #999999;
+    background-color: #fff;
+}
+.slide-image {
+    width: 100% !important;
+}
+#qber-bottom {
+    border-top: 1px solid #fff;
+    width: 100%;
+    height: 30px;
+    background: url("http://cdn.quancafe.vn/content/images/noise.png") repeat scroll 0 0 #dddddd;
+}
+#bner-search {
+    float: left;
+    width: 100%;
+    background: url("http://cdn.quancafe.vn/content/images/noise.png") repeat scroll 0 0 #dddddd;
+}
+#bner-search #search-bner {
+    max-width: 980px;
+    margin: 0 auto;
+}
+#search-bner-typebranch {
+	max-width: 980px;
+    margin: 0 auto;
+}
+#search {
+	border: 1px solid #999;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: white;
+	box-shadow: inset 0 0 21px rgba(0, 0, 0, 0.05);
+	position: relative;
+	height: 45px;
+}
+#search-input-wrapper {
+	position: absolute;
+	left: 50px;
+	height: 45px;
+	border-left: 1px solid #DEDEDE;
+	right: 100px;
+	float: left;
+}
+#search:before {
+	background: url("http://cdn.quancafe.vn/content/images/search.gif") repeat scroll 0px 1px transparent;
+	content: "";
+	float: left;
+	height: 25px;
+	margin: 11px 0 0 15px;
+	width: 25px;
+}
+#sample-text {
+	position: absolute;
+	left: 605px;
+	z-index: 1;
+	font-weight: 300;
+	color: #595657;
+	bottom: 10px;
+}
+#search-btn {
+	float: right;
+	padding: 0 15px;
+	height: 38px;
+	margin: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.height39 {
+	height: 39px !important;
+}
+.u-btn.green {
+	background: #A85316 url("http://cdn.quancafe.vn/content/images/noise.png");
+	border: 1px solid #3C5F00;
+}
+.u-btn {
+	background: #A85316 url("http://cdn.quancafe.vn/content/images/noise.png");
+	border: 1px solid #3C5F00;
+	position: relative;
+	padding: 7px 15px 10px;
+	display: inline-block;
+	border-radius: 20px;
+	color: white;
+	font-weight: bold;
+	font-size: 17px;
+	text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 1px rgba(255, 255, 255, 0.45) inset,0 1px 3px rgba(0, 0, 0, 0.3),0 -32px 16px -16px rgba(0, 0, 0, 0.2) inset;
+	-webkit-transition: background-color 0.3s ease;
+	-moz-transition: background-color 0.3s ease;
+	-o-transition: background-color 0.3s ease;
+	transition: background-color 0.3s ease;
+	-webkit-transition: background-color 0.3s ease;
+	-moz-transition: background-color 0.3s ease;
+	-o-transition: background-color 0.3s ease;
+	transition: background-color 0.3s ease;
+}
+button,input[type="button"],input[type="reset"],input[type="submit"]{
+	cursor: pointer;
+	-webkit-appearance: button;
+}
+.search_select {
+    width: 14%;
+    float: left;
+    line-height: 1.2;
+    border: 1px solid #A8A8A8;
+	box-shadow: none;
+	color: #A8A8A8;
+	margin-left: 1%;
+	margin-top: 4px;
+    font-size: 18px;
+    padding: 7px 8px;
+    font-weight: 500;
+    display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.areas {
+	border: 1px solid #A8A8A8;
+	box-shadow: none;
+	color: #6E6E6E;
+	font-size: 27px;
+	font-weight: 300;
+	height: 35px;
+	line-height: 1.2;
+	margin-right: 10px;
+	margin-top: 4px;
+	width: 40%;
+	margin-left: 1%;
+	float: left;
+}
+.keys {
+	border: 1px solid #A8A8A8;
+	box-shadow: none;
+	color: #6E6E6E;
+	font-size: 27px;
+	font-weight: 300;
+	height: 35px;
+	line-height: 1.2;
+	margin-top: 4px;
+	width: 40%;
+	margin-left: 1%;
+	float: left;
+}
+#menu-line {
+    width: 100%;
+    background: url(http://cdn.quancafe.vn/Content/newimages/line-footer.jpg) repeat-x;
+    float: left;
+    height: 10px;
+}
+#menu {
+	background: url(http://cdn.quancafe.vn/Content/newimages/bgmenu.jpg);
+	float: left;
+	width: 100%;
+	height: auto;
+    padding-bottom: 10px;
+}
+#menu > #ct-menu {
+    max-width: 980px;
+    margin: 0 auto;
+}
+#ct-menu > a {
+    padding: 10px;
+	text-decoration: none;
+	color: #ece3da;
+	float: left;
+	font-weight: bold;
+}
+#ct-menu > a:hover {
+	color: #CAC433;
+}
+#ct-menu > .sp {
+	float: left;
+	color: #fff;
+	margin-top: 10px;
+}
+#ct-menu > .alltp {
+	background: #999;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#844514', endColorstr='#9e591d');
+	background: -webkit-gradient(linear, left top, left bottom, from(#844514), to(#9e591d));
+	background: -moz-linear-gradient(top,  #844514,  #9e591d);
+}
+.national {
+    position: relative;
+}
+.national > .national-size {
+    max-width: 960px;
+    height: auto;
+    padding: 10px;
+    left: 10px;
+    right: 20px;
+    top: 30px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    z-index: 10000;
+    position: absolute;
+    min-width: 330px;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.national-size .region {
+    margin-top: 20px;
+    width: 300px;
+    display: inline-block;
+	border: 1px solid #ddd;
+    background-color: #fff;
+}
+.region .region-name {
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+    font-size: 20px;
+    border-bottom: 1px solid #C3C3C3;
+    background:#ECECEC url("http://cdn.quancafe.vn/content/images/noise.png");
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-moz-linear-gradient(#ECECEC, #ECECEC);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-webkit-linear-gradient(#ECECEC, #ECECEC);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-o-linear-gradient(#ECECEC, #ECECEC);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-ms-linear-gradient(#ECECEC, #ECECEC);
+	background: url("http://cdn.quancafe.vn/content/images/noise.png"), linear-gradient(#ECECEC, #ECECEC);
+}
+.region ul {
+    height: 400px;
+    overflow: auto;
+}
+.region ul li a {
+    width: 273px;
+    padding: 5px;
+    float: left;
+    text-align: left;
+    font-weight: 600;
+    color: #2D2D2D;
+}
+.region ul li a:hover {
+    color: #b34d2e;
+    background:#ECECEC url("http://cdn.quancafe.vn/content/images/noise.png");
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-moz-linear-gradient(#ECECEC, #ECECEC);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-webkit-linear-gradient(#ECECEC, #ECECEC);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-o-linear-gradient(#ECECEC, #ECECEC);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-ms-linear-gradient(#ECECEC, #ECECEC);
+	background: url("http://cdn.quancafe.vn/content/images/noise.png"), linear-gradient(#ECECEC, #ECECEC);
+}
+#national1 {
+    position: relative;
+    display: none;
+}
+#national1 #district-size {
+    max-width: 560px;
+    height: auto;
+    padding: 10px;
+    left: -80px;
+    right: 20px;
+    top: 30px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    z-index: 10000;
+    position: absolute;
+    min-width: 330px;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+#district-size .district-list {
+    width: 100%;
+    float: left;
+    border: 1px solid #C3C3C3;
+}
+#district-size .region-name1 {
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
+    float: left;
+    height: auto;
+    padding: 15px 0;
+    font-size: 20px;
+    border-bottom: 1px solid #C3C3C3;
+    background:#ECECEC url("http://cdn.quancafe.vn/content/images/noise.png");
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-moz-linear-gradient(#ECECEC, #ECECEC);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-webkit-linear-gradient(#ECECEC, #ECECEC);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-o-linear-gradient(#ECECEC, #ECECEC);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-ms-linear-gradient(#ECECEC, #ECECEC);
+	background: url("http://cdn.quancafe.vn/content/images/noise.png"), linear-gradient(#ECECEC, #ECECEC);
+}
+#district-size .district-name {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.district-name a {
+    width: 270px;
+    padding: 5px;
+    float: left;
+    text-align: left;
+    font-weight: 600;
+    color: #2D2D2D;
+    display: inline-block;
+}
+.district-name a:hover {
+    color: #b34d2e;
+    background:#ECECEC url("http://cdn.quancafe.vn/content/images/noise.png");
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-moz-linear-gradient(#ECECEC, #ECECEC);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-webkit-linear-gradient(#ECECEC, #ECECEC);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-o-linear-gradient(#ECECEC, #ECECEC);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-ms-linear-gradient(#ECECEC, #ECECEC);
+	background: url("http://cdn.quancafe.vn/content/images/noise.png"), linear-gradient(#ECECEC, #ECECEC);
+}
+#main {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+#main > #ctmain {
+	margin: 0 20px;
+}
+#ctmain > #ct-left {
+	float: left;
+	/*max-width: 960px;*/
+    margin-right: 350px;
+}
+.big-bound {
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+}
+/*.big-bound div{ float: left;}*/
+.big-bound .qc1 {
+    width: 310px;
+    height: 90px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+.big-bound .qc2 {
+    width: 310px;
+    height: 150px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+.center{text-align:center}
+.big-bound .title-center {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: -20px;
+}
+.big-bound .title-center h1 {
+    color: #b34d2e;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+    font-size: 1.8em
+}
+.title {
+	width: 100%;
+}
+.brick {
+	width: 100%;
+	border-top: 2px solid #cac433;
+	margin: 5px 0;
+	float: left;
+}
+.title > img {
+	float: left;
+    margin-top: 3px;
+}
+.title > h1 a {
+	float: left;
+	padding: 5px 0 0 10px;
+	color: #333;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+    font-size: 20px;
+	margin: 0 auto;
+   /* width: 45%;*/
+}
+.width100pc{ width: 100% !important;}
+.width50pc{ width: 50% !important;}
+.width80pc{ width: 80% !important;}
+.bg-img-sk {
+    background: url("http://cdn.quancafe.vn/Content/icons/bg-sk.png") no-repeat;
+    width: 280px;
+}
+.bg-img-nb {
+    background: url("http://cdn.quancafe.vn/Content/icons/bg-nb.png") no-repeat;
+    width: 256px;
+}
+.bg-img-cd {
+    background: url("http://cdn.quancafe.vn/Content/icons/bg-tcd.png") no-repeat;
+    width: 527px;
+}
+.bg-img-yt {
+    background: url("http://cdn.quancafe.vn/Content/icons/bg-yt.png") no-repeat;
+    width: 386px;
+}
+.bg-img-rw {
+    background: url("http://cdn.quancafe.vn/Content/icons/bg-review.png") no-repeat;
+    width: 430px;
+}
+.bgall-title {
+    padding: 0 0 0 20px !important;
+    font-size: 26px !important;
+    color: #fff !important;
+    line-height: 45px;
+}
+
+.title > h1 a:hover {
+    color: #b34d2e;
+}
+.big-bound > .small-bound {
+	float: left;
+	width: 100%;
+    text-align: center;
+}
+.event-bou {
+	width: 280px;
+	margin: 20px 10px;
+	position: relative;
+    display: inline-block;
+}
+.event-bou > .big-event {
+	width: 73px;
+	height: 46px;
+	position: absolute;
+	left: 230px;
+	z-index: 99;
+}
+.event-bou > .event {
+	width: 276px;
+	float: left;
+	padding: 1px;
+	border: 1px solid #ccc;
+	position: relative;
+	top: 25px;
+	background-color: #fff;
+	cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+.event-bou > .event:hover {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.event:hover .course-thumb > span{
+    opacity: 1;
+}
+.course-thumb > span {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: opacity 0.3s ease 0s;
+    width: 100%;
+}
+.course-thumb > span > span {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    border-radius: 10px 10px 10px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    left: 60%;
+    margin: -15px 0 0 -60px;
+    padding: 5px 10px;
+    position: absolute;
+    color: #fff;
+    top: 50%;
+}
+.course-thumb {
+    border-radius: 2px 2px 0 0;
+    display: block;
+    position: relative;
+    width: 270px;
+    height: 145px;
+    padding:3px;
+}
+.event > a img {
+	float: left;
+	width: 100%;
+	height: 145px;
+}
+.name {
+	margin-top: 1px;
+	width: 100%;
+	line-height: 40px;
+	float: left;
+	text-align: center;
+    font-size: 18px;
+	font-weight: bold;
+    text-shadow: 0 1px 1px #b9b9b9;
+	background:#e5e9e8 url("http://cdn.quancafe.vn/content/images/noise.png");
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-moz-linear-gradient(#e7f9ff, #aad3e2);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-webkit-linear-gradient(#e7f9ff, #aad3e2);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-o-linear-gradient(#e7f9ff, #aad3e2);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-ms-linear-gradient(#e7f9ff, #aad3e2);
+	background: url("http://cdn.quancafe.vn/content/images/noise.png"), linear-gradient(#e7f9ff, #aad3e2);
+}
+.event-bou > .event:hover .name {
+    background:#944d23 url("http://cdn.quancafe.vn/content/images/noise.png");
+    background:url("http://cdn.quancafe.vn/content/images/noise.png"),-moz-linear-gradient(#944d23, #683814);
+    background:url("http://cdn.quancafe.vn/content/images/noise.png"),-webkit-linear-gradient(#944d23, #683814);
+    background:url("http://cdn.quancafe.vn/content/images/noise.png"),-o-linear-gradient(#944d23, #683814);
+    background:url("http://cdn.quancafe.vn/content/images/noise.png"),-ms-linear-gradient(#944d23, #683814);
+    background: url("http://cdn.quancafe.vn/content/images/noise.png"), linear-gradient(#944d23, #683814);
+}
+.name a {
+    color: #2D2D2D;
+    padding: 0 5px;
+}
+.content {
+	width: 100%;
+	height:55px;
+	text-align: center;
+	background-color:#fff;
+	float: left;
+	padding: 5px 0;
+	max-height: 55px;
+	overflow: hidden;
+}
+.content a {
+    color:#2D2D2D;
+}
+.content a:hover {
+    color: #b34d2e;
+}
+.other-bound {
+	width: 276px;
+	margin: 20px 10px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 1px;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    position: relative;
+    border-radius: 3px;
+}
+.other-bound:hover .name {
+    background:#944d23 url("http://cdn.quancafe.vn/content/images/noise.png");
+    background:url("http://cdn.quancafe.vn/content/images/noise.png"),-moz-linear-gradient(#944d23, #683814);
+    background:url("http://cdn.quancafe.vn/content/images/noise.png"),-webkit-linear-gradient(#944d23, #683814);
+    background:url("http://cdn.quancafe.vn/content/images/noise.png"),-o-linear-gradient(#944d23, #683814);
+    background:url("http://cdn.quancafe.vn/content/images/noise.png"),-ms-linear-gradient(#944d23, #683814);
+    background: url("http://cdn.quancafe.vn/content/images/noise.png"), linear-gradient(#944d23, #683814);
+}
+.other-bound:hover {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.other-bound:hover .course-thumb > span{
+    opacity: 1;
+}
+.other-bound > a img {
+	float: left;
+	width: 100%;
+	height: 145px;
+}
+.other-bound > .table {
+	width: 100%;
+	height: 35px;
+	float: left;
+}
+.other-bound > .table > p {
+	margin: 0 auto;
+}
+.other-bound > .table > p a {
+    color: #fff;
+}
+.other-bound > .table > p a:hover {
+    color: #b34d2e;
+}
+.order {
+	background-color: #cac433;
+	width: 125px;
+	height: 20px;
+	padding: 8px 0px;
+	text-align: center;
+	font-weight: bold;
+	float: left;
+}
+.eval {
+	background-color: #cac433;
+	width: 150px;
+	height: 20px;
+	padding: 8px 0px;
+	margin-left: 1px !important;
+	text-align: center;
+	font-weight: bold;
+	float: left;
+}
+.border-active {
+    border-top: 1px solid #DDDBDB;
+    width: 100%;
+	float: left;
+}
+.active {
+	width: 100%;
+    padding: 3px 0;
+	float: left;
+    position: relative;
+}
+.branchvote {
+    top: 28px;
+    left: 63px;
+    z-index: 999;
+    overflow: visible;
+    position: absolute;
+    background: #ccc
+}
+.vote{background: url(http://cdn.quancafe.vn/Content/images/icon_star_vote2.png) no-repeat; width: 20px; height:20px; float:left;}
+.vote:hover{background:url(http://cdn.quancafe.vn/Content/images/icon_star_vote.png) no-repeat}
+.active > p {
+	margin: 0 auto;
+}
+.active > .item-active1 {
+	width: 55px;
+	float: left;
+	text-align: center;
+}
+.active > .item-active {
+	width: 68px;
+	float: left;
+	text-align: center;
+}
+
+.active > .item-active img {
+    padding-top: 3px;
+    cursor: pointer;
+}
+.active > .item-active .like {
+    margin: 3px 0 0 19px;
+    background: url(http://cdn.quancafe.vn/Content/newimages/like.png) no-repeat;
+    width: 30px;
+    height: 26px;
+    cursor: pointer;
+}
+.active > .item-active .like:hover {
+    background: url(http://cdn.quancafe.vn/Content/newimages/like-hover.png) no-repeat;
+}
+.active > .item-active1 .like1 {
+    margin: 3px 0 0 12px;
+    background: url(http://cdn.quancafe.vn/Content/newimages/like.png) no-repeat;
+    width: 30px;
+    height: 26px;
+    cursor: pointer;
+}
+.active > .item-active1 .like1:hover {
+    background: url(http://cdn.quancafe.vn/Content/newimages/like-hover.png) no-repeat;
+}
+.active > .item-active .cm {
+    margin: 3px 0 0 19px;
+    background: url(http://cdn.quancafe.vn/Content/newimages/cm.png) no-repeat;
+    width: 30px;
+    height: 26px;
+    cursor: pointer;
+}
+.active > .item-active .cm:hover {
+    background: url(http://cdn.quancafe.vn/Content/newimages/cm-hover.png) no-repeat;
+}
+.active > .item-active1 .cm1 {
+    margin: 3px 0 0 12px;
+    background: url(http://cdn.quancafe.vn/Content/newimages/cm.png) no-repeat;
+    width: 30px;
+    height: 26px;
+    cursor: pointer;
+}
+.active > .item-active1 .cm1:hover {
+    background: url(http://cdn.quancafe.vn/Content/newimages/cm-hover.png) no-repeat;
+}
+.active > .item-active .share {
+    margin: 3px 0 0 19px;
+    background: url(http://cdn.quancafe.vn/Content/newimages/share.png) no-repeat;
+    width: 30px;
+    height: 26px;
+    cursor: pointer;
+}
+.active > .item-active .share:hover {
+    background: url(http://cdn.quancafe.vn/Content/newimages/share-hover.png) no-repeat;
+}
+.active > .item-active1 .share1 {
+    margin: 3px 0 0 19px;
+    background: url(http://cdn.quancafe.vn/Content/newimages/share.png) no-repeat;
+    width: 30px;
+    height: 26px;
+    cursor: pointer;
+}
+.active > .item-active1 .share1:hover {
+    background: url(http://cdn.quancafe.vn/Content/newimages/share-hover.png) no-repeat;
+}
+.active > .item-active .star {
+    margin: 3px 0 0 19px;
+    background: url(http://cdn.quancafe.vn/Content/newimages/star.png) no-repeat;
+    width: 30px;
+    height: 26px;
+    cursor: pointer;
+}
+.active > .item-active .star:hover {
+    background: url(http://cdn.quancafe.vn/Content/newimages/star-hover.png) no-repeat;
+}
+.active > .item-active .location {
+    margin: 3px 0 0 19px;
+    background: url(http://cdn.quancafe.vn/Content/newimages/location.png) no-repeat;
+    width: 30px;
+    height: 26px;
+    cursor: pointer;
+}
+.active > .item-active .location:hover {
+    background: url(http://cdn.quancafe.vn/Content/newimages/location-hover.png) no-repeat;
+}
+.active > .item-active .num-active {
+    padding-top: 5px;
+}
+.active > .item-active strong {
+	font-weight: 600;
+    float: left;
+    color: #793F14;
+    width: 100%;
+}
+#ctmain > #ct-right {
+	float: right;
+	max-width: 310px;
+    margin-left: -1000px;
+}
+.user {
+    float: left;
+    width: 100%;
+}
+.item-al 
+{
+    margin-top: 10px;
+    padding: 0 2px;
+    width: 150px;
+    height: 50px;
+    float: left;
+}
+.item-al > a img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius:5px;
+}
+.item-al > .name-av {
+    float: left;
+    margin-left: 5px;
+    width: 95px;
+    max-height: 40px;
+    overflow: hidden;
+    font-weight: 600;
+}
+.item-al > .name-av a {
+    color: #2D2D2D;
+}
+.item-al > .name-av a:hover {
+    color: #b34d2e;
+}
+.item-product {
+    float: left;
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #2D2D2D;
+    cursor: pointer;
+}
+.item-product:hover {
+    color: #b34d2e;
+}
+.item-product img {
+    width: 73px;
+    height: 98px;
+    float: left;
+    border-radius: 5px;
+    border: 1px solid #C9A77A;
+}
+.item-product:hover img {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+.item-product > .product-name {
+    width: 230px;
+    max-height: 45px;
+    overflow: hidden;
+    float: left;
+    margin-left: 5px;
+}
+.item-product > .product-price {
+    padding-top: 2px;
+    width: 230px;
+    max-height: 30px;
+    overflow: hidden;
+    float: left;
+    margin-left: 5px;
+}
+.color-new {
+    color: #bc000f;
+}
+.line_through {
+    text-decoration: line-through;
+}
+.coffee-health {
+    background: url("http://cdn.quancafe.vn/Content/newimages/dot-coffee.png") no-repeat scroll 0 0 transparent;
+    padding-bottom: 2px;
+    padding-left: 22px;
+    margin-top: 10px;
+}
+.coffee-health a {
+    color: #2D2D2D;
+    font-weight: 600;
+    height: 40px;
+    overflow: hidden;
+}
+.coffee-health a:hover {
+    color: #b34d2e;
+}
+.coffee-health p {
+    margin: 0 auto;
+}
+.recrui {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.recrui-left {
+    width: 220px;
+    float: left;
+}
+.recrui-left .vttd {
+    width: 100%;
+    font-size: 16px;
+}
+.recrui-left .vttd a {
+    width: 100%;
+    color: #2D2D2D;
+    float: left;
+}
+.recrui-left .vttd a:hover {
+    color: #b34d2e;
+}
+.recrui-left p {
+    color: #2D2D2D;
+    font-weight: 600 !important;
+    margin: 0 auto;
+    font-size: 14px !important;
+}
+.recrui-left .vttd p span {
+    color: #999999;
+}
+.recrui-left .vttd p strong {
+    color: #595657;
+}
+.recrui-right {
+    width: 60px;
+    float: right;
+    background: url("http://cdn.quancafe.vn/Content/newimages/diadiem.png") no-repeat scroll 0 0 transparent;
+    padding-bottom: 2px;
+    padding-left: 22px;
+}
+.free-market {
+    float: left;
+    /*border: 1px solid #d71a21;*/
+    border-radius:3px;
+    text-align: center;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+.free-market h1 a {
+    width: 100%;
+    font-size: 18px;
+    color: #d71a21;
+    text-shadow: 0px 1px 1px #999999;
+}
+#partners {
+    width: 100%;
+    float: left;
+}
+#partners > #ct-partners {
+    margin: 0 20px;
+    text-align: center;
+}
+#partners > #ct-partners a {
+    display: inline-block;
+}
+#partners > #ct-partners a img{
+    padding: 20px;
+    width: 110px;
+    height: 110px;
+    float: left;
+    margin: 0 auto;
+}
+.ml12 {
+    margin-left: 12px;
+}
+.w220 {
+    width: 220px;
+}
+.t10 {
+    margin-top: 10px !important;
+}
+.t20 {
+    margin-top: 20px !important;
+}
+.t40 {
+    margin-top: 20px;
+}
+.t50 {
+    margin-top: 50px;
+ }
+ .t75 {
+    margin-top: 75px;
+ }
+ .t100 {
+     margin-top: 100px;
+ }
+ .t150 {
+     margin-top: 150px;
+ }
+.clhover {
+    color: #D71A21 !important;
+}
+.ta-left {
+    text-align: left !important;
+}
+.b40 {
+    margin-bottom: 40px;
+}
+.b200 {
+    margin-bottom: 200px;
+}
+.side-lined:after {
+    background: none repeat scroll 0 0 #ffb39c;
+    width: 20%;
+}
+.side-lined:before, .side-lined:after {
+    background: none repeat scroll 0 0 #ffb39c;
+    content: "";
+    height: 1px;
+    left: 50px;
+    position: absolute;
+    top: 50%;
+    width: 20%;
+}
+.side-lined:before {
+    background: none repeat scroll 0 0 #ffb39c;
+    left: auto;
+    right: 50px;
+    width: 20%;
+}
+.title-center h1.thin {
+    color: #b34d2e;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.side-lined {
+    position: relative;
+}
+.pick-province {
+    width: 100%;
+    margin-top: 0px;
+}
+.pick-province span {
+    font-size: 18px;
+    float: left;
+}
+.pick-province span img {
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-left: 10px;
+}
+.pick-top-left {
+    top:25px !important;
+}
+.lazy {
+    display: none;
+}
+.item-new {
+    width: 100%;
+    margin-top: 10px;
+    float: left;
+    font-weight: 600;
+}
+.item-new a img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    border-radius: 5px;
+}
+.item-new-book {
+    width: 100%;
+    height: 97px;
+    margin-top: 10px;
+    float: left;
+    font-weight: 600;
+}
+.item-new-book a img {
+    max-width: 65px;
+    height: 97px;
+    float: left;
+    border-radius: 3px;
+}
+.item-new-tw {
+    float: left;
+    margin: 0 0 0 5px;
+    width: 235px;
+}
+.new-date {
+    color: #999;
+    font-weight: 600 !important;
+}
+.new-view {
+    color: #999;
+    font-weight: 600 !important;
+}
+.item-new-title {
+    float: left;
+    margin-left: 5px;
+    width: 235px;
+    overflow: hidden;
+}
+.item-new-title a {
+    color: #2D2D2D;
+}
+.item-new-title a:hover {
+    color: #b34d2e;
+}
+#h-pro {
+    width: 100%;
+    float: left;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.4);
+    background:url("http://cdn.quancafe.vn/content/images/noise.png"),-moz-linear-gradient(#dddddd, #fff);
+    background-color:#dddddd;
+    background: url("http://cdn.quancafe.vn/content/images/noise.png"), -webkit-gradient(#dddddd, #fff);
+    background: url("http://cdn.quancafe.vn/content/images/noise.png"),-webkit-linear-gradient(#dddddd, #fff);
+    background: url("http://cdn.quancafe.vn/content/images/noise.png"),-o-linear-gradient(#dddddd, #fff);
+    background: url("http://cdn.quancafe.vn/content/images/noise.png"),-ms-linear-gradient(#dddddd, #fff);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', endColorstr='#dddddd', GradientType=0 );
+    padding: 0 0 30px 0;
+}
+#h-pro #h-pro-bound {
+    margin: 0 auto;
+    max-width: 980px;
+}
+#h-pro #h-pro-bound #h-pro-ct {
+    width: 100%;
+    margin-top: 10px;
+}
+#h-pro-ct span {
+    float: left;
+    font-size: 18px;
+    font-weight: 500;
+}
+#h-pro-ct span img {
+    float: left;
+    height: 24px;
+    margin-left: 10px;
+    width: 24px;
+}
+.z3000{z-index: 3000;}
+.dinline {display: inline;}
+.mt40{margin-top:40px;}
+.mt9{margin-top:9px;}
+.search_active {background-color: #d2d2d2;opacity: 0.7;}
+.search_dropbox {z-index: 2000;background-color: #fff;border: 1px solid #A8A8A8;border-radius: 0 0 4px 4px;height: auto;left: 18.8%;position: absolute;text-indent: 10px;top: 42px;width: 331px;}
+.region_dropbox {z-index: 2000;background-color: #fff;border: 1px solid #A8A8A8;border-radius: 0 0 4px 4px;height: auto;left: 0px;position: absolute;text-indent: 10px;top: 33px;width: 372px;}
+.region_dropbox1 {z-index: 4000;background-color: #fff;border: 1px solid #A8A8A8;border-radius: 0 0 4px 4px;height: auto;left: 53.6%;position: absolute;text-indent: 10px;top: 42px;width: 331px;}
+.suggestOption {background-color: #fff;padding: 5px 0;height: auto;float: left;border-top: 1px dotted #ccc;text-align: left;text-indent:5px;cursor: pointer;width: 100%;font-size: 18px;display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.suggestOptionactive {display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;color: #B34d2e;float: left;height: auto;padding: 5px 0;text-align: left;text-indent: 5px;cursor: pointer;width: 100%;font-size: 18px;font-weight: 600;background:#ECECEC url("http://cdn.quancafe.vn/content/images/noise.png");
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-moz-linear-gradient(#ECECEC, #ECECEC);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-webkit-linear-gradient(#ECECEC, #ECECEC);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-o-linear-gradient(#ECECEC, #ECECEC);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-ms-linear-gradient(#ECECEC, #ECECEC);
+	background: url("http://cdn.quancafe.vn/content/images/noise.png"), linear-gradient(#ECECEC, #ECECEC);}
+.suggestOption:hover {color: #B34d2e;height: auto;float: left;font-weight: 600;background:#ECECEC url("http://cdn.quancafe.vn/content/images/noise.png");
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-moz-linear-gradient(#ECECEC, #ECECEC);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-webkit-linear-gradient(#ECECEC, #ECECEC);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-o-linear-gradient(#ECECEC, #ECECEC);
+	background:url("http://cdn.quancafe.vn/content/images/noise.png"),-ms-linear-gradient(#ECECEC, #ECECEC);
+	background: url("http://cdn.quancafe.vn/content/images/noise.png"), linear-gradient(#ECECEC, #ECECEC);}
+	.boxLoading{position: fixed; border-radius: 5px; top: 50%; left: 50%; z-index: 20000; box-shadow: 0 0 2px 0 #999;}
+.mt20 {
+    margin-top: 20px;
+}
+.ml0 {
+    margin-left: 0 !important;
+}
+.pl0 {
+    padding-left: 0 !important;
+}
+.read {
+    float: left;
+    width: 100%;
+}
+.read a {
+    color: #333;
+    font-size: 14px;
+}
+.read a:hover {
+    color: #b34d2e;
+}
+.button {
+	font-size: 14px; 
+	text-decoration: none!important; 
+	font-family: Helvetica, Arial, sans serif;
+	padding: 4px; 
+	border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	box-shadow: inset 0px 0px 2px #fff;
+	-o-box-shadow: inset 0px 0px 2px #fff;
+	-webkit-box-shadow: inset 0px 0px 2px #fff;
+	-moz-box-shadow: inset 0px 0px 2px #fff;
+    cursor: pointer;
+    margin-left: 20px;
+    color: #333;
+		color: #333;
+	border: 1px solid #6fb1c7;
+	background-image: -moz-linear-gradient(#aae5f7, #73d0f1);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#73d0f1), to(#aae5f7));
+	background-image: -webkit-linear-gradient(#aae5f7, #73d0f1);
+	background-image: -o-linear-gradient(#aae5f7, #73d0f1);
+	text-shadow: 1px 1px 1px #bfeafb;
+	background-color: #73d0f1;
+    float: left;
+}
+.button:active {
+	box-shadow: inset 0px 0px 3px #999;
+	-o-box-shadow: inset 0px 0px 3px #999;
+	-webkit-box-shadow: inset 0px 0px 3px #999;
+	-moz-box-shadow: inset 0px 0px 3px #999;
+	border: 1px solid #3b778b;
+}
+.button:hover {
+    color: #333;
+    	border: 1px solid #4690ad;
+	background-image: -moz-linear-gradient(#73d0f1, #aae5f7);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#aae5f7), to(#73d0f1));
+	background-image: -webkit-linear-gradient(#73d0f1, #aae5f7);
+	background-image: -o-linear-gradient(#73d0f1, #aae5f7);
+	background-color: #aae5f7;
+}
+.poRelation{ position: relative;}
+.ml5{ margin-left: 5px;}
+.slimScrollDiv { float: left;}
+.height280{ height: 280px !important;}
+.height325{ height: 325px !important;}
+.pagination { padding: 4px 2px 2px 2px; margin:0 auto; float:right; color:#0174b0;}
+.pagination ul { margin: 0 auto; padding: 0; text-align:left; /*Set to "right" to right align pagination interface*/}
+.pagination li { list-style-type: none; display: inline; padding:0;}
+.pagination a, .pagination a:visited { padding: 5px 8px; text-decoration: none; font:bold 11px Tahoma, Geneva, sans-serif; color:#793F14; border: 1px solid #C9A77A;margin-left: 5px;}
+.pagination a:hover, .pagination a:active { color: #fff;  border: 1px solid #C9A77A; background-color:#793F14;}
+.pagination a.currentpage { color: #fff !important; cursor: default; background-color: #793F14; border-color: #C9A77A; margin-left: 5px; margin-right: 5px}
+.pagination a.disablelink, .pagination a.disablelink:hover { background-color: white; cursor: default; color: #929292; border-color: #ccc; font-weight: normal !important;}
+.postionRelatetive{position: relative}
+.personPopupTrigger {color: #000;font-weight: bold; font-size:12px}
+/* css for tooltip */
+#personPopupContainer{position:absolute;right:0;top:0;display:none;z-index: 20000;width: 350px;height: auto;overflow: visible;background-color: #ECEEF5;border: 1px solid #CAD4E7;border-radius: 5px;}
+#userMainContent .border{border:5px solid #CAD4E7}
+.personPopupPopup{}
+#personPopupContent{min-width: 175px;min-height: 50px;}
+.personPopupPopup .personPopupImage{margin: 5px;margin-right: 15px;}
+.personPopupPopup .corner {width: 19px;height: 15px;}
+.personPopupPopup .topLeft {background: url(http://cdn.quancafe.vn/Content/images/personpopup/balloon_topLeft.png) no-repeat;}
+.personPopupPopup .bottomLeft {background: url(http://cdn.quancafe.vn/Content/images/personpopup/balloon_bottomLeft.png) no-repeat;}
+.personPopupPopup .left {background: url(http://cdn.quancafe.vn/Content/images/personpopup/balloon_left.png) repeat-y;}
+.personPopupPopup .right {background: url(http://cdn.quancafe.vn/Content/images/personpopup/balloon_right.png) repeat-y;}
+.personPopupPopup .topRight {background: url(http://cdn.quancafe.vn/Content/images/personpopup/balloon_topRight.png) no-repeat;}
+.personPopupPopup .bottomRight {background: url(http://cdn.quancafe.vn/Content/images/personpopup/balloon_bottomRight.png) no-repeat;}
+.personPopupPopup .top {background: url(http://cdn.quancafe.vn/Content/images/personpopup/balloon_top.png) repeat-x;}
+.personPopupPopup .bottom {background: url(http://cdn.quancafe.vn/Content/images/personpopup/balloon_bottom.png) repeat-x;text-align: center;}
+.marginleft10{ margin-left: 10px;}
+.width250{width: 220px;}
+.margintop20{ margin-top: 5px;}
+ #simple-modal-overlay
+    {
+        background: radial-gradient(circle, #FFFFFF, #291A49) repeat scroll 0 0 transparent;
+        display: block;
+        height: 100%;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 99998;
+    }
+    .simple-modal
+    {
+        background-color: #FFFFFF;
+        border: 1px solid rgba(234, 238, 250, 0.6);
+        border-radius: 6px 6px 6px 6px;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+        color: #808080;
+        font-family: "Helvetica Neue" ,Helvetica,Arial,sans-serif;
+        font-size: 13px;
+        font-weight: normal;
+        left: 20px;
+        line-height: 18px;
+        margin: 0;
+        position: fixed;
+        top: 20px;
+        width: 600px;
+        z-index: 99999;
+    }
+    .simple-modal .simple-modal-header
+    {
+        border-bottom: 1px solid #EEEEEE;
+        margin: 0;
+        padding: 5px 15px;
+    }
+    .simple-modal .simple-modal-header h1
+    {
+        color: #404040;
+        font-family: "Helvetica Neue" ,Helvetica,Arial,sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 36px;
+        margin: 0;
+    }
+    .simple-modal a.close
+    {
+        color: #999999;
+        font-family: "Helvetica Neue" ,Helvetica,Arial,sans-serif;
+        font-size: 17px;
+        font-weight: normal;
+        line-height: 10px;
+        position: absolute;
+        right: 15px;
+        text-decoration: none;
+        top: 15px;
+    }
+    .simple-modal a.close:hover
+    {
+        color: #444444;
+    }
+    .simple-modal .simple-modal-body
+    {
+        padding: 15px;
+    }
+    .simple-modal .simple-modal-body div.contents
+    {
+        overflow: hidden;
+    }
+    .simple-modal .simple-modal-body p
+    {
+        color: #606060;
+        font-size: 13px;
+        font-weight: normal;
+        line-height: 18px;
+    }
+    .simple-modal .simple-modal-body p img
+    {
+        display: block;
+        margin: 0 auto 10px;
+    }
+    .simple-modal .simple-modal-footer
+    {
+        background-color: #F5F5F5;
+        border-radius: 0 0 6px 6px;
+        border-top: 1px solid #EEEEEE;
+        box-shadow: 0 1px 0 #FFFFFF inset;
+        display: block;
+        margin-bottom: 0;
+        padding: 14px 15px 15px;
+        text-align: center;
+    }
+    .simple-modal .simple-modal-footer a.btn
+    {
+        background-repeat: no-repeat;
+        border: 1px solid transparent;
+        border-radius: 3px 3px 3px 3px;
+        color: #333333;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 13px;
+        line-height: normal;
+        padding: 5px 14px 6px;
+        text-decoration: none;
+        transition: all 0.2s linear 0s;
+    }
+    .simple-modal .simple-modal-footer a.btn.primary
+    {
+        background-color: #999999;
+        background-repeat: repeat-x;
+        color: #FFFFFF;
+        margin-right: 15px;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    }
+    .simple-modal .simple-modal-footer a.btn.primary:hover
+    {
+        background-color: #444444;
+        border: 1px solid #444444;
+    }
+    .simple-modal .simple-modal-footer a.btn.secondary
+    {
+        padding: 5px 2px 6px;
+    }
+    .simple-modal .simple-modal-footer a.btn.secondary:hover
+    {
+        color: #999999;
+    }
+    .simple-modal.draggable .simple-modal-header:hover
+    {
+        background-color: #F8F8F8;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        cursor: move;
+    }
+    .simple-modal.loading .simple-modal-body
+    {
+        background: url("../images/loader.gif") no-repeat scroll center center transparent;
+        min-height: 60px;
+    }
+    .simple-modal.loading .simple-modal-body div.contents
+    {
+        display: none;
+    }
+    .simple-modal.loading .close, .simple-modal.loading .simple-modal-header, .simple-modal.loading .simple-modal-footer
+    {
+        display: none;
+    }
+    .simple-modal.hide-header .simple-modal-header
+    {
+        display: none;
+    }
+    .simple-modal.hide-footer .simple-modal-footer
+    {
+        display: none;
+    }

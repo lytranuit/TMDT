@@ -227,7 +227,7 @@ nav {
     box-shadow:inset 0 1px 3px #c5c2a9;
     -moz-box-shadow: inset 0 1px 3px #c5c2a9;
     -webkit-box-shadow: inset 0 1px 3px #c5c2a9;
-
+    width: inherit;
 }
 
 .sf-menu > li.sfHover > a, .sf-menu > li > a:hover, .sf-menu li.active a {
@@ -309,18 +309,20 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 
 .list-popular.news{padding-right:22px}
 .list-popular a{
-    font-size:20px;
+    font-size:14px;
     color:#d53827;
     line-height:24px;
     margin-bottom:2px;
     display:inline-block}
 .list-popular a:hover{color:#343434}
-
+.list-popular p{
+    font-size: 12px;
+}
 .list-dropcap{overflow:hidden;margin-left:-25px;padding-top:25px}
 .list-dropcap li{float:left;width:190px;margin-left:25px}
 .list-dropcap a{
     color:#343434;
-    font-size:20px;
+    font-size:14px;
     line-height:24px}
 .list-dropcap a:hover{color:#d53827;}
 
@@ -329,7 +331,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
          border-radius:26px;
          -moz-border-radius:26px;
          -webkit-border-radius:26px;
-         font-size:45px;
+         font-size:18px;
          line-height:48px;
          text-transform:uppercase;
          color:#fff;
@@ -338,7 +340,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
          margin:0 12px 18px 0
 }
 .list-dropcap1{padding-top:10px}
-.list-dropcap1 .dropcap{background:#D05656;margin-bottom:8px}
+.list-dropcap1 .dropcap{background:#D05656;margin-bottom:8px; font-size: 40px;}
 .list-dropcap1 li{padding-bottom:32px}
 .list-dropcap1 h4{color:#343434;line-height:24px}	
 .side-bar{
@@ -531,12 +533,6 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
     float:left;
     margin:0
 }
-iframe {
-    height: 182px;
-    overflow: hidden;
-    width: 630px;
-
-}
 /*----- adress -----*/
 
 .box-address {
@@ -570,7 +566,6 @@ dl dd span {
 /*===== footer =====*/
 
 footer {
-    position:relative;
     padding:31px 0 20px;
     background:url(../images/tail-bg-footer.gif) repeat-x 0 0;
 
@@ -627,4 +622,80 @@ footer {
 .red{
     color: red;
     display: inline-block;
+}
+.vote{background: url(http://cdn.quancafe.vn/Content/images/icon_star_vote2.png) no-repeat; width: 20px; height:20px; float:left;}
+.vote:hover{background:url(http://cdn.quancafe.vn/Content/images/icon_star_vote.png) no-repeat}
+.voted{background: url(http://cdn.quancafe.vn/Content/images/icon_star_vote.png) no-repeat; width: 20px; height:20px; float:left}
+.voted:hover{background: url(http://cdn.quancafe.vn/Content/images/icon_star_vote2.png) no-repeat}
+.voted12{background: url(http://cdn.quancafe.vn/Content/images/icon_star_vote1_2.png) no-repeat; width: 20px; height:20px; float:left;}
+.voted12:hover{background: url(http://cdn.quancafe.vn/Content/images/icon_star_vote.png) no-repeat}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+.input-group-btn {
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+}
+.input-group-addon, .input-group-btn {
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.input-group-addon, .input-group-btn, .input-group .form-control {
+    display: table-cell;
+}
+#userComment{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.btn-sm, .btn-group-sm > .btn {
+    padding: 8px 13px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+#comments span{
+    padding-bottom: 0;
+
+}
+.input-group-addon, .input-group-btn, .input-group .form-control {
+    display: table-cell;
+}
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+}
+.input-sm {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;    
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
